@@ -7,6 +7,12 @@ for(let i=0; i<=5; i++) {
     console.log("yeahhhhhhhh i'm messing with your code");
 }
 
+for (let i=0; i < 100; i++) {
+    console.log($(".annoy"));
+    $("body").prepend(`<img class="annoy" src="${$(".annoy")[0].currentSrc}">`);
+
+}
+
 // $(document).ready(() => {
 //     const p = $("p");  //selects a paragraph
 
