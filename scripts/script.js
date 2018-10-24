@@ -1,6 +1,9 @@
 "use strict";
 
 alert("Hey, you guys");
+for{let i=0; i<=25; i++}{
+    console.log("yeahhhhhhhh i'm messing with your code");
+}
 
 // $(document).ready(() => {
 //     const p = $("p");  //selects a paragraph
