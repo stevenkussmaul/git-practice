@@ -1,6 +1,9 @@
 "use strict";
 
 alert("Hey, you guys");
+for{let i=0; i<=25; i++}{
+    console.log("yeahhhhhhhh i'm messing with your code");
+}
 
 // $(document).ready(() => {
 //     const p = $("p");  //selects a paragraph
@@ -41,7 +44,7 @@ $(document).ready(() => {
         console.log(event);
         // $(event.target).addClass("green");
     });
-    $(document).on("click",".green",(event) => {
+    $(document).on("hover",".green",(event) => {
         writeColor = "green";
         console.log(writeColor);
 
