@@ -44,7 +44,7 @@ $(document).ready(() => {
         console.log(event);
         // $(event.target).addClass("green");
     });
-    $(document).on("click",".green",(event) => {
+    $(document).on("hover",".green",(event) => {
         writeColor = "green";
         console.log(writeColor);
 
