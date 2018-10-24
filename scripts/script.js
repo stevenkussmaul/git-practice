@@ -1,5 +1,7 @@
 "use strict";
 
+alert("Hey, you guys");
+
 // $(document).ready(() => {
 //     const p = $("p");  //selects a paragraph
 
